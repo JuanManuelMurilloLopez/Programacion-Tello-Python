@@ -29,13 +29,13 @@ Flight Pattern
    1 5   3
 """
 
-tello.go_xyz_speed(0, 0, travel_distance_cm, 10)
+tello.go_xyz_speed(0, 0, travel_distance_cm, 20)
 time.sleep(0.5)
-tello.go_xyz_speed(0, 0, travel_distance_cm, -travel_distance_cm, 10)
+tello.go_xyz_speed(0, 0, travel_distance_cm, -travel_distance_cm, 20)
 time.sleep(0.5)
-tello.go_xyz_speed(0, 0, travel_distance_cm, 10)
+tello.go_xyz_speed(0, 0, travel_distance_cm, 20)
 time.sleep(0.5)
-tello.go_xyz_speed(0, -travel_distance_cm, -travel_distance_cm, 10)
+tello.go_xyz_speed(0, -travel_distance_cm, -travel_distance_cm, 20)
 
 # Aterrizaje
 tello.land()

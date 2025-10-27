@@ -15,13 +15,13 @@ print(f"Batería: {battery_level}")
 tello.takeoff()
 
 tello.move_up(40)
-tello.move_down(10)
+tello.move_down(20)
 
-tello.move_left(10)
-tello.move_right(10)
+tello.move_left(20)
+tello.move_right(20)
 
-tello.move_back(10)
-tello.move_forward(10)
+tello.move_back(20)
+tello.move_forward(20)
 
 # Aterrizaje
 tello.land()
